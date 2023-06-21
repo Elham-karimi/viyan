@@ -1,0 +1,16 @@
+<form [formGroup]="userFg">
+  <label for="username">Name</label>
+  <input formControlName="nameCtrl" id="username" type="text">
+
+  <label for="email">Email</label>
+  <input formControlName="emailCtrl" id="email" type="email">
+
+  <label for="password">Password</label>
+  <input formControlName="passwordCtrl" id="password" type="password">
+
+  <label for="age">Age</label>
+  <input formControlName="ageCtrl" id="age" type="number">
+
+  <label for="isAdmin">Is user Admin?</label>
+  <input formControlName="isAdminCtrl" id="isAdmin" type="checkbox">
+</form>
